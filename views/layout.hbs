@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+    {{!-- <!-- ------------------------------ Style Link --------------------------------> --}}
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+    {{!-- <!-- ------------------------------ End of Style Link -- ------------------------------> --}}
+
+    <!-- ------------------------------ Favicon -------------------------------->
+    <link rel="shortcut icon" href="/images/narcissus.png" type="image/x-icon">
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
+      crossorigin="anonymous"
+    />
+    <!-- ------------------------------ End of Favicon -------------------------------->
+    
+    <!-- ------------------------------ Title Tag -------------------------------->
+    <title>Narciso</title>
+    <!-- ------------------------------ End of Title Tag -------------------------------->
+  </head>
+  <body>
+    <nav>
+      <div class="logo-container">
+        <div class="nav-logo">
+          <img src="/images/narcissus.png" alt="logo" >
+          <p>{{title}} <br> {{subtitle}}</p>
+        </div>
+        <label for="menu" class="nav-label">
+          <img src="images/menu.svg" alt="menu button" class="nav-img">
+        </label>
+        <input type="checkbox" id="menu" class="nav-input">
+        <ul class="links-container">
+          <li><a href="/">Home</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Team</a></li>
+          <li><a href="#">Testimonials</a></li>
+          <li><a href="gallery">Gallery</a></li>
+          <li><a href="contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    {{{body}}}
+
+    <!-- ------------------------------ Javascript Script Start -------------------------------->
+    <script src="/javascripts/menu.js"></script>
+    <!-- ------------------------------ Javascript Script End -------------------------------->
+  </body>
+</html>

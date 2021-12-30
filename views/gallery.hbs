@@ -1,0 +1,17 @@
+<body>
+  <section>
+    <div class="gallery-title">
+      <h2>Our work</h2>
+    </div>
+    {{#each photos}}
+    <div class="portfolio">
+      <div class="portfolio__column">
+        <div class="portfolio__image"><img src={{image}} alt="Imagen de muestra 1" /></div>
+      </div>
+      <p>{{author}}</p>
+    </div>
+    {{/each}}
+  </section>
+
+  <button class="scroll-btn">&uarr;</button>
+</body>
