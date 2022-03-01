@@ -3,6 +3,13 @@ let express = require("express");
 let path = require("path");
 let cookieParser = require("cookie-parser");
 let logger = require("morgan");
+// const {Pool} = require("pg")
+// const pool = new Pool({
+//   connectionString: process.env.DATABASE_URL,
+//   ssl: {
+//     rejectUnauthorized: false
+//   }
+// })
 
 require("dotenv").config(); //cargamos los datos del archivo de variables de entorno
 

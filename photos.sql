@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 22-11-2021 a las 22:32:32
+-- Tiempo de generación: 02-01-2022 a las 20:42:10
 -- Versión del servidor: 10.4.21-MariaDB
 -- Versión de PHP: 7.3.31
 
@@ -47,7 +47,7 @@ INSERT INTO `photos` (`id`, `image`, `author`) VALUES
 (8, 'https://picsum.photos/id/197/4272/2848', 'Kholodnitskiy Maksim'),
 (9, 'https://picsum.photos/id/375/5184/3456', 'Wellington Sanipe'),
 (10, 'https://picsum.photos/id/513/4373/3280', 'Jeff Sheldon'),
-(11, 'https://picsum.photos/id/602/2509/1673', 'Margot Pandone'),
+(11, 'https://picsum.photos/id/602/2509/1673', 'margot pandone'),
 (12, 'https://picsum.photos/id/655/2000/1125', 'Kyle Szegedi');
 
 --
