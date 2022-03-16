@@ -3,15 +3,17 @@ let express = require("express");
 let path = require("path");
 let cookieParser = require("cookie-parser");
 let logger = require("morgan");
-// const {Pool} = require("pg")
-// const pool = new Pool({
-//   connectionString: process.env.DATABASE_URL,
-//   ssl: {
-//     rejectUnauthorized: false
-//   }
-// })
 
 require("dotenv").config(); //cargamos los datos del archivo de variables de entorno
+
+// conexion a base de datos
+const mongoose = require("mongoose");
+
+const uri = `mongodb+srv://${process.env.USER}:${process.env.PASS}@narciso.voecy.mongodb.net/${process.env.DBNAME}?retryWrites=true&w=majority`;
+mongoose
+  .connect(uri)
+  .then(() => console.log("Base de datos conectada"))
+  .catch((err) => console.log(err));
 
 let indexRouter = require("./routes/index");
 let contactRouter = require("./routes/contact");
