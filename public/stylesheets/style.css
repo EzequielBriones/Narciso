@@ -100,7 +100,7 @@ nav ul {
 /****************************************** Header Section **********************************/
 
 .header {
-  height: 85.1vh;
+  height: 87vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.644)), url(https://i.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU);
   background-size: cover;
   background-position: center;
