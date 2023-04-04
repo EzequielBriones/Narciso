@@ -101,7 +101,7 @@ nav ul {
 
 .header {
   height: 87vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.644)), url(https://i.picsum.photos/id/119/3264/2176.jpg?hmac=PYRYBOGQhlUm6wS94EkpN8dTIC7-2GniC3pqOt6CpNU);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.041), rgba(0, 0, 0, 0.644)), url(https://fastly.picsum.photos/id/352/3264/2176.jpg?grayscale&hmac=Z4WWD0iSQlATkbjoWBQjNBnBCp5YESF5JMZWYAw2YHY);
   background-size: cover;
   background-position: center;
   position: relative;
@@ -239,7 +239,7 @@ nav ul {
 
 .contact-overlay {
   height: 85.1vh;
-  background-image: url(https://i.picsum.photos/id/238/2560/1440.jpg?hmac=wKo4dLHwDntZmO_fdtnKtsnmRcPMACca3m5J5vx2AVc);
+  background-image: url(https://fastly.picsum.photos/id/964/2560/1440.jpg?grayscale&hmac=NtTR_Cii5ZgXkZSgAU34kKf39m-k9exXt7uW79P8VaE);
   background-size: cover;
   background-position: center;
   position: relative;
